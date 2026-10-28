@@ -1,0 +1,13 @@
+Change Component Designator: OldDesignator=HD1 NewDesignator=HD2
+Change Component Designator: OldDesignator=HD2 NewDesignator=HD3
+Added Component: Designator=HD1(HED2)
+Add component (AddParameter): Name = "Value"; Value = "Header 2"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=HD1-1
+Change Net Name : Old Net Name=NetHD1_1 New Net Name=NetHD2_1
+Change Net Name : Old Net Name=NetHD1_2 New Net Name=NetHD2_2
+Change Net Name : Old Net Name=NetHD1_3 New Net Name=NetHD2_3
+Change Net Name : Old Net Name=NetHD2_2 New Net Name=NetHD3_2
+Added Pin To Net: NetName=NetHD1_2 Pin=HD1-2
+Added Pin To Net: NetName=NetHD1_2 Pin=R1-2
+Added Net: Name=NetHD1_2
+Added Member To Class: ClassName=Sheet1 Member=Component HD3 Header 3
